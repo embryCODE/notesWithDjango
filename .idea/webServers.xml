@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="cf1113d3-3339-4856-8994-fcd8b66e8b48" name="ec2-3-138-107-78.us-east-2.compute.amazonaws.com" url="http://notes-with-django.dev.embrycode.com">
+        <fileTransfer rootFolder="/webapps/notesWithDjango" accessType="SFTP" host="ec2-3-138-107-78.us-east-2.compute.amazonaws.com" port="22" sshConfigId="d0475739-94aa-4e3d-b598-564a3b4fd037" sshConfig="ubuntu@ec2-3-138-107-78.us-east-2.compute.amazonaws.com:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
